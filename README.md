@@ -15,6 +15,7 @@
 
 ### Dataset
 
+The dataset we choose to use is NBA games data, which can be found on the website: https://www.kaggle.com/datasets/nathanlauga/nba-games.
 
 
 ### Problematic
