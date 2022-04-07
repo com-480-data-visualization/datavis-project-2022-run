@@ -14,7 +14,7 @@
 
 ###Dataset
 
-The dataset we choose to use is (NBA games data) [https://www.kaggle.com/datasets/nathanlauga/nba-games]. 
+The dataset we choose to use is (NBA games data)[https://www.kaggle.com/datasets/nathanlauga/nba-games]. 
 This dataset provides the matches information from different seasons, which contains technical statistics like three point percentage, free throw percentage, and assists. 
 Besides, the history of different teams, like the team's city, the team founded year and the team's stadium. 
 In detail, the dataset contains 5 files:
