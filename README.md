@@ -15,7 +15,17 @@
 
 ### Dataset
 
-The dataset we choose to use is NBA games data, which can be found on the website: https://www.kaggle.com/datasets/nathanlauga/nba-games.
+The dataset we choose to use is NBA games data, which can be found on the website: https://www.kaggle.com/datasets/nathanlauga/nba-games. 
+This dataset provides the matches games information from different seasons, which contains technical statistics like three point percentage, free throw percentage, and assists. 
+Besides, the history of different teams, like team's city, team founded year, and team's stadium. 
+In detail, the dataset contains 5 files:
++ games.csv : all games from 2004 season to last update with the date, teams and some details like number of points, etc.
++ games_details.csv : details of games dataset, all statistics of players for a given game
++ players.csv : players details (name)
++ ranking.csv : ranking of NBA given a day
++ teams.csv : all teams of NBA
+
+
 
 
 ### Problematic
