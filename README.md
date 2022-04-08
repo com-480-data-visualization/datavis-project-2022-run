@@ -10,9 +10,7 @@
 
 ## Milestone 1 
 
-**10% of the final grade**
-
-###Dataset
+### Dataset
 
 The dataset we choose to use is [NBA games data](https://www.kaggle.com/datasets/nathanlauga/nba-games). 
 This dataset provides the matches information from different seasons, which contains technical statistics like three point percentage, free throw percentage, and assists. 
@@ -30,16 +28,16 @@ The project aims to show basic tactics and in-depth analysis by visualization. T
 
 Some content we want to show in our visualization is as followed:
 
-+Comparison of players’ performance from different season stages:
++ Comparison of players’ performance from different season stages:
 In NBA, matches can be divided into two stages: regular season and playoff. For two kinds of matches, the format is different, and players’ playing styles and enthusiasm, are dissimilar, which causes the differences in technical statistics. To have a better understanding of the player and teams, the matches should be classified. Moreover, the playoff advancement rules were modified these years due to COVID-19. A new play-in tournament was added to the format. 
 
 + Comparison of players’ performance from different seasons:
 Many factors should be taken into consideration in the comparison of players. To compare players from different seasons, the data cannot be simply used for comparison. The performance of players is related to the rules. The modification of rules contributes to the growth of the average score. In other words, the difficulty of obtaining the same score varies from year to year.
 
-+Comparison of teams’ tactics from different seasons:
++ Comparison of teams’ tactics from different seasons:
 The tactics of one team change due to the player transaction rules modification and so on. To have a better understanding of one team, we want to show the differences between one team in different seasons.
 
-+Comparison of performance at home and way:
++ Comparison of performance at home and way:
 The performance of a team is also related to whether the match’s place is home or away. The difference in win rate and basic tactics can help us know the importance of home and away.
 
 ### Exploratory Data Analysis
