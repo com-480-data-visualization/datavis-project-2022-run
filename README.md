@@ -77,8 +77,10 @@ As mentioned before, NBA-related websites seldom offer visual information. Live 
 
 ## Milestone 2 
 
-**10% of the final grade**
 
+### Functional Project Prototype Review
+
+The visualization would be post on the website: [nbadatav.com](http://nbadatav.com/).
 
 ## Milestone 3
 
