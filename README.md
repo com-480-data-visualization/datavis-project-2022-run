@@ -77,7 +77,8 @@ As mentioned before, NBA-related websites seldom offer visual information. Live 
 
 ## Milestone 2 
 
-
+Here is [Milestone 2 Report](Milestone%202.pdf)
+ 
 ### Functional Project Prototype Review
 
 The visualization would be post on the website: [nbadatav.com](http://nbadatav.com/).
