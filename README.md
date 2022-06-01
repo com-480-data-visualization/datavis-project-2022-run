@@ -86,12 +86,15 @@ The visualization would be post on the website: [nbadatav.com](http://nbadatav.c
 
 ## Milestone 3
 
-**80% of the final grade**
+### Screencast
+The screencast has been post on: [youtube](https://youtu.be/Xco6rNxl2lA).
+
+### Process Book
+Heer is our [process book](Milestone3.pdf)
+
+### Final Visualization
+The visualization would be post on the website: [nbadatav.com](http://nbadatav.com/).
 
 
-## Late policy
-
-- < 24h: 80% of the grade for the milestone
-- < 48h: 70% of the grade for the milestone
 
 
