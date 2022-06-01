@@ -4,7 +4,6 @@
 | -------------- | ------ |
 |Ruiqi Yu |340546 |
 |Junzhe Tang |340747 |
-|Yuhan Bi |335456 |
 
 [Milestone 1](#milestone-1) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
 
@@ -21,6 +20,8 @@ In detail, the dataset contains 5 files:
 + players.csv : players details (name).
 + ranking.csv : ranking of NBA given a day.
 + teams.csv : all teams of NBA.
+
+For some advanced data, we use the data from [NBA offical](https://www.nba.com/stats/) and [basketball reference](https://www.basketball-reference.com/). They are also uploaded in the repository. 
 
 ### Problematic
 
