@@ -1,0 +1,1482 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+html,
+body {
+	width: 100%;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+.Top_box {
+	width: 100vw;
+	background: #3d3d3d;
+}
+
+.top_ul {
+	width: 55%;
+	height: 7vh;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+
+.top_ul>li {
+	width: 15%;
+	line-height: 7vh;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.top_ul>li>a {
+	color: #FFFFFF;
+}
+
+.top_ul>li:nth-child(1n+4):hover {
+	border-bottom: 4px solid #30A996;
+
+}
+
+.top_ul>li:nth-child(1n+4):hover>a {
+	color: #30A996;
+}
+
+.home_top_img {
+	width: 100vw;
+	height: 93vh;
+	float: left;
+	position: relative;
+}
+
+.hd_top_img {
+	width: 300vw;
+	transition: all 1s;
+}
+
+.home_top_img:nth-child(3) {
+	background: url('../images/d3.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.home_top_img:nth-child(2) {
+	background: url('https://img.3dmgame.com/uploads/allimg/170522/1316-1F522160200.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.home_top_img:nth-child(1) {
+	background: url('../images/nba_hm.jpeg') no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.hd_ck_img {
+	width: 100vw;
+	overflow: hidden;
+	position: relative;
+}
+
+.hd_img_ul {
+	position: absolute;
+	bottom: 2vh;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+}
+
+.hd_img_ul li {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: #CCCCCC;
+	float: left;
+	margin: 5px;
+}
+
+.hd_img_ul .cli_color {
+	background: #FFFFFF;
+	transform: scale(1.2);
+}
+
+.hd_img_ul li:hover {
+	cursor: pointer;
+}
+
+.Top_hd {
+	width: 100vw;
+	height: 50px;
+	background: #0E55B6;
+}
+
+.cont_margin {
+	width: 70%;
+	height: 100%;
+	margin: auto;
+	padding-left: 15%;
+}
+
+.cont_margin>span {
+	position: relative;
+	color: #FFFFFF;
+	font-size: 18px;
+	text-align: left;
+	line-height: 50px;
+}
+
+.cont_margin>span::before {
+	content: "";
+	position: absolute;
+	top: -15px;
+	left: 110%;
+	width: 350px;
+	display: block;
+	animation: dm 10s infinite linear alternate;
+
+}
+
+@keyframes dm {
+
+	5% {
+		content: "";
+	}
+
+	10% {
+		content: "J";
+	}
+
+	15% {
+		content: "JU";
+	}
+
+	20% {
+		content: "JUN";
+	}
+
+	25% {
+		content: "JUNZ";
+	}
+
+	30% {
+		content: "JUNZH";
+	}
+
+	35% {
+		content: "JUNZHE";
+	}
+
+	40% {
+		content: "JUNZHE ";
+	}
+
+	45% {
+		content: "JUNZHE T";
+	}
+
+	50% {
+		content: "JUNZHE TA";
+	}
+
+	55% {
+		content: "JUNZHE TAN";
+	}
+
+	60% {
+		content: "JUNZHE TANG";
+	}
+
+	65% {
+		content: "JUNZHE TANG ";
+	}
+
+	70% {
+		content: "JUNZHE TANG R";
+	}
+
+	75% {
+		content: "JUNZHE TANG RU";
+	}
+
+	80% {
+		content: "JUNZHE TANG RUI";
+	}
+
+	85% {
+		content: "JUNZHE TANG RUIQ";
+	}
+
+	90% {
+		content: "JUNZHE TANG RUIQI ";
+	}
+
+	95% {
+		content: "JUNZHE TANG RUIQI Y";
+	}
+
+	100% {
+		content: "JUNZHE TANG RUIQI YU";
+	}
+
+
+
+
+
+}
+
+.c_lmin h2 {
+	text-align: center;
+}
+
+.t-cen {
+	text-align: center;
+}
+
+.title_tex {
+	width: 70%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background: linear-gradient(275deg, transparent, #000000, transparent);
+}
+
+.c_lmin .e2-p {
+	width: 70vw;
+	margin: auto;
+}
+
+.title_tex>h2 {
+	font-size: 45px;
+	width: 100%;
+	text-align: center;
+}
+
+.title_tex>h2:nth-child(1) {
+	color: #FFFFFF;
+}
+
+.title_tex>h2:nth-child(2) {
+	color: #FFCB05;
+}
+
+.title_tex>span {
+	font-size: 21px;
+	text-align: center;
+	color: #FFFFFF;
+	width: 100%;
+	display: block;
+}
+
+.matchs-info {
+	width: 100%;
+	background: #ffcb05;
+}
+
+.tx_p>span {
+	color: #000000;
+	margin-right: 10px;
+}
+
+.right_ {
+	width: 40%;
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;
+}
+
+.tx_log {
+	background: url(https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/1040x760/1627759.png) no-repeat;
+	background-size: cover;
+	width: 85%;
+	height: 100%;
+	background-position: center;
+	margin: auto;
+}
+
+.name_log {
+	color: #000000;
+	font-size: 24px;
+	text-align: center;
+	position: absolute;
+	bottom: -3px;
+	left: 90%;
+	width: 100%;
+	animation: lb 10s infinite linear;
+	transform: translateX(0);
+
+}
+
+@keyframes lb {
+	0% {}
+
+	100% {
+		transform: translateX(-150%)
+	}
+}
+
+.con_top::before {
+	content: "";
+	width: 262px;
+	height: 152px;
+	background: #007AFF;
+	position: absolute;
+	top: -155px;
+	left: -206px;
+	transform: rotatez(55deg);
+	border-radius: 50px;
+}
+
+.con_2,
+.con_3 {
+	width: 100%;
+}
+
+.tr_hb {
+	border-bottom: 0;
+}
+
+.con_2 select {
+	margin: auto;
+	display: block;
+	border: 0;
+	height: 40px;
+	background: #007AFF;
+	color: #FFFFFF;
+}
+
+.con_2 th {
+	background: #007AFF;
+	padding: 5px;
+}
+
+.con_2>table {
+	width: 100%;
+}
+
+.box_rig {
+	width: 100%;
+}
+
+select,
+option {
+	font-size: 18px;
+}
+
+.xrbfb p {
+	background: linear-gradient(49deg, #9cf78a, #068c4f);
+	height: 100%;
+	color: #FFFFFF;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -5;
+	transition: all 1s;
+}
+
+.xrbfb td {
+	position: relative;
+	z-index: -1;
+}
+
+.con_2 td {
+	margin: 0;
+	height: 35px;
+	color: #000000;
+	line-height: 35px;
+	text-align: center;
+}
+
+
+.tc_ul>li:hover {
+	background: #ccc;
+}
+
+.cent_title {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	background: #e7e7e7;
+	border: 1px solid #ccc;
+}
+
+.bio {
+	width: 33%;
+
+}
+
+.bio_log img {
+	width: 40px;
+}
+
+.bio_log {
+	text-align: center;
+	padding-top: 10px;
+	width: 20%;
+	margin: auto;
+}
+
+.bio>p {
+	width: 100%;
+	text-align: center;
+}
+
+
+
+.col_bl {
+	background: #FFFFFF;
+	position: relative;
+}
+
+.col_bl::before {
+	content: "";
+	width: 100%;
+	height: 3px;
+	background: #007AFF;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.bio:hover {
+	cursor: pointer;
+}
+
+.cent_left {
+	width: 55%;
+
+}
+
+.cent_left>p {
+	width: 100%;
+	text-align: left;
+	font-size: 18px;
+	font-weight: 600;
+
+}
+
+.cent_left>p>span {
+	font-weight: 500;
+}
+
+.cent_right {
+	width: 50%;
+}
+
+.cent_box {
+	display: flex;
+	justify-content: space-between;
+}
+
+.zind {
+	z-index: 99;
+}
+
+.zind2 {
+	z-index: -1;
+}
+
+.zyesy>h3 {
+	color: #007AFF;
+	font-weight: 600;
+	font-size: 23px;
+}
+
+.cent_box2 {
+	width: 100%;
+
+}
+
+.zyesy>table {
+	width: 100%;
+}
+
+.zyesy>table th {
+	width: 25%;
+	background: #007AFF;
+	text-align: center;
+	border-right: 1px solid #FFFFFF;
+	height: 50px;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+.zyesy>table td {
+	width: 25%;
+	text-align: center;
+	font-size: 20px;
+	color: #000000;
+}
+
+.hjtime {
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	display: flex;
+}
+
+.hjtime>h3 {
+	width: 50%;
+	text-align: left;
+	color: #007AFF;
+	font-weight: 600;
+	font-size: 23px;
+}
+
+.re-table,
+.re13-table {
+	width: 100%;
+}
+
+.re13-table th {
+	width: 7%;
+	height: 35px;
+	background: #007AFF;
+	color: #FFFFFF;
+}
+
+.re-table th {
+	width: 8.3%;
+	height: 35px;
+	background: #007AFF;
+	color: #FFFFFF;
+}
+
+.re-table td,
+.re13-table td {
+	text-align: center;
+	height: 45px;
+}
+
+.re-table tr:nth-child(2n+3) td,
+.re13-table tr:nth-child(2n+3) td {
+	background: #e5e5e5;
+}
+
+.fb-p {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.fb-p2 {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.fb-p span,
+.fb-p2 span {
+	display: block;
+	background: #ff5f5f;
+	padding: 13px;
+	border-radius: 10px;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+.load {
+	width: 40%;
+	background: #007AFF;
+	padding: 20px;
+	font-size: 24px;
+	text-align: center;
+	color: #FFFFFF;
+	border-radius: 10px;
+	margin: 100px auto;
+	display: block;
+}
+
+.container {
+	padding: 25px 0;
+}
+
+.disp-block {
+	display: block !important;
+}
+
+.Bi {
+	display: none;
+}
+
+.hjtime,
+.hj_cont {
+	width: 100%;
+	display: flex;
+}
+
+.hj_left,
+.hj_right {
+	width: 50%;
+}
+
+.hj_cont {}
+
+.hj_cont_1>div>span {
+	font-weight: 600;
+}
+
+.hj_cont_1>div {
+	color: #000000;
+	font-size: 19px;
+}
+
+.hj_cont_1 p {
+	text-align: left;
+	padding-left: 40px;
+}
+
+.hj_right>p {
+	color: #000000;
+	font-size: 19px;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.hj_right>p>span {
+	padding-left: 20px;
+}
+
+.gr_jj {
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.gr_jj>h3 {
+	width: 50%;
+	text-align: left;
+	color: #007AFF;
+	font-weight: 600;
+	font-size: 23px;
+}
+
+.h3-blu {
+	text-align: left;
+	color: #007AFF;
+	font-weight: 600;
+	font-size: 23px;
+}
+
+.gr_ul {
+	list-style-type: square;
+	margin-left: 25px;
+
+}
+
+.gr_ul li {
+	margin-bottom: 19px;
+	color: #000000;
+	font-size: 18px;
+}
+
+.cont_right {
+	width: 30%;
+}
+
+.flex {
+	display: flex;
+}
+
+.cont_right table {
+	width: 95%;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 5px #000000;
+	margin: auto;
+}
+
+.cont_right table th {
+	background: #007AFF;
+	width: 100%;
+	font-size: 22px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.cont_right table td {
+
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+}
+
+.cont_right table tr>td:nth-child(1),
+.cont_right table tr>td:nth-child(3) {
+	width: 15%;
+}
+
+.cont_right table tr>td:nth-child(2) {
+	width: 70%;
+}
+
+.cont_right table tr:nth-child(2n+2) {
+	background: #EBEAEC;
+}
+
+.cont_right table tr:hover {
+	background: #EAFDDB;
+}
+
+.echarts_1 {
+	width: 100%;
+	height: 90vh;
+}
+
+.echarts_2 {
+	width: 100%;
+	height: 90vh;
+
+}
+
+.cent_box_3 {
+	width: 100vw;
+	margin: auto;
+	background: #238dcb;
+}
+
+#us-map {
+	display: block;
+
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+path:hover,
+circle:hover {
+	stroke: #e1d8cc !important;
+	stroke-width: 2px;
+	stroke-linejoin: round;
+	fill: #ffffff !important;
+	cursor: pointer;
+}
+
+#path67 {
+	fill: none !important;
+	stroke: #433c2f !important;
+	cursor: default;
+}
+
+#info-box {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	background-color: #ffffff;
+	border: 2px solid #999;
+	border-radius: 5px;
+	padding: 5px;
+	font-family: arial;
+}
+
+
+
+.tc_ul {
+	border: 1px solid #CCCCCC;
+	width: 100%;
+	list-style-type: none;
+}
+
+.tc_title {
+	width: 300px;
+	background: #FFFFFF;
+	box-shadow: 0 0 10px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	transform: translate(0, 0);
+	display: none;
+	z-index: 99;
+}
+
+.tc_ul>li {
+	width: 100%;
+	height: 45px;
+	text-align: left;
+	line-height: 33px;
+	border-bottom: 1px solid #CCCCCC;
+	padding: 5px;
+}
+
+.tc_ul>li a {
+	text-decoration: underline !important;
+}
+
+.tc_title>p {
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	background: #cf6262;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: 600;
+	margin: 0;
+}
+
+.tc_title>p>span {
+	display: block;
+
+}
+
+.tc_title>p>span:nth-child(1) {
+	float: left;
+	margin-left: 20px;
+}
+
+.tc_title>p>span:nth-child(2) {
+	float: right;
+	margin-right: 20px;
+}
+
+.log_img {
+	width: 30px;
+	background: #FFFFFF;
+	background-size: cover;
+	height: 30px;
+	float: left;
+	margin-right: 20px;
+	border-radius: 50%;
+}
+
+.tcname {
+	display: block;
+	float: left;
+}
+
+.box_1 {
+	position: relative;
+}
+
+.but_cz {
+	position: absolute;
+	right: 0;
+	bottom: -30px;
+	background: #009900;
+	color: #FFFFFF;
+	width: 100%;
+	border: 1px solid #CCCCCC;
+	box-shadow: 0 3px 3px #000;
+	height: 30px;
+}
+
+.but_cz:hover {
+	background: #93ee93;
+}
+
+.margin_auto {
+	margin: auto;
+}
+
+.top_ul {
+	width: 55%;
+	height: 60px;
+
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+
+.top_ul>li {
+	width: 15%;
+	line-height: 60px;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.top_ul>li>a {
+	color: #FFFFFF;
+}
+
+.top_ul>li:nth-child(1n+4):hover {
+	border-bottom: 4px solid #30A996;
+
+}
+
+.top_ul>li:nth-child(1n+4):hover>a {
+	color: #30A996;
+}
+
+.wmar {
+	width: 80%;
+	margin: auto;
+	display: block;
+}
+
+.team-btw-match li {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 20px;
+	padding-top: 5px;
+}
+
+.wmar~p {
+	text-align: center;
+	font-size: 18px;
+}
+
+/* .table td{
+	border: 1px solid;
+} */
+
+.qy_top tr>td:nth-child(1) {
+	width: 15%;
+}
+
+.qy_top p {
+	text-align: center;
+}
+
+.th_ {
+	text-align: center;
+}
+
+.qy_top>tr:nth-child(2)>td>.tx_img {
+	width: 70px;
+	background: url("https://res.nba.cn/media/img/players/head/260x190/2544.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100px;
+	margin: auto;
+}
+
+.qy_top>tr:nth-child(2)>td>.qd_img {
+	width: 100px;
+	background: url("https://www.nba.com/lakers/sites/lakers/files/lakers_logo_500.png?w=180&h=105") no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100px;
+	margin: auto;
+}
+
+.qy_top>tr:nth-child(3)>td>.tx_img {
+	width: 70px;
+	background: url("https://res.nba.cn/media/img/players/head/260x190/201939.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100px;
+	margin: auto;
+}
+
+.qy_top>tr:nth-child(3)>td>.qd_img {
+	width: 100px;
+	background: url("https://cdn.nba.com/logos/nba/1610612744/global/L/logo.svg") no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100px;
+	margin: auto;
+}
+
+.qy_top>tr:nth-child(4)>td>.tx_img {
+	width: 70px;
+	background: url("https://res.nba.cn/media/img/players/head/260x190/201566.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100px;
+	margin: auto;
+}
+
+.qy_top>tr:nth-child(4)>td>.qd_img {
+	width: 100px;
+	background: url("https://www.nba.com/lakers/sites/lakers/files/lakers_logo_500.png?w=180&h=105") no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100px;
+	margin: auto;
+}
+
+.qy_top>tr:nth-child(5)>td>.tx_img {
+	width: 70px;
+	background: url("https://res.nba.cn/media/img/players/head/260x190/202681.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100px;
+	margin: auto;
+}
+
+.qy_top>tr:nth-child(5)>td>.qd_img {
+	width: 100px;
+	background: url("https://pic1.zhimg.com/v2-95756f73cea56a99395acb73fda32c28_qhd.jpg?source=57bbeac9") no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100px;
+	margin: auto;
+}
+
+.qy_top>tr:nth-child(6)>td>.tx_img {
+	width: 70px;
+	background: url("https://res.nba.cn/media/img/players/head/260x190/201142.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100px;
+	margin: auto;
+}
+
+.qy_top>tr:nth-child(6)>td>.qd_img {
+	width: 100px;
+	background: url("https://pic1.zhimg.com/v2-95756f73cea56a99395acb73fda32c28_qhd.jpg?source=57bbeac9") no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100px;
+	margin: auto;
+}
+
+.qy_top tr>td:nth-child(1) {
+	padding-top: 15px;
+}
+
+.mb-4 {
+	display: none !important;
+}
+
+#ifra {
+	padding-bottom: 0;
+}
+
+#ifra>iframe {
+	border: 0;
+}
+
+.qy_top {
+	width: 100%;
+}
+
+.qy_top td {
+	border-bottom: 1px solid #ccc;
+}
+
+.qy_top th {
+	border-bottom: 1px solid #ccc;
+}
+
+.qy_top tr>td {
+	border-right: 1px solid #ccc;
+}
+
+.row>p {
+	height: 50px;
+	line-height: 50px;
+	color: #FFFFFF;
+}
+
+.Cent {
+	width: 70%;
+	margin: auto;
+	border: 1px solid #000000;
+	box-shadow: 0 0 10px #000000;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+	min-width: 1120px;
+}
+
+.c_lbox {
+	width: 30%;
+}
+
+.c_lbox>aside {
+	width: 90%;
+	margin: auto;
+	border: 1px solid #CCCCCC;
+	padding: 10px;
+	padding-top: 20px;
+}
+
+.banner-sidebar {
+	width: 95%;
+}
+
+.c_lbox h4 {
+	text-align: center;
+	font-size: 22px;
+}
+
+.Cent>article {
+	width: 70%;
+	padding: 20px;
+	border-left: 1px solid #ccc;
+}
+
+.c_lmin {
+	padding: 25px;
+
+}
+
+.c_lmin p {
+	font-size: 20px;
+}
+
+.h2_title {
+	width: fit-content;
+	margin: auto;
+	text-align: center;
+	position: relative;
+}
+
+.h2_title>h2 {
+	position: relative;
+	font-size: 30px;
+}
+
+.contant {
+	min-width: 1280px;
+	border: 1px solid;
+	overflow: hidden;
+	padding: 0 20px;
+	margin: auto;
+	border-radius: 20px;
+	width: 70vw;
+}
+
+.h2_title>h2>span:nth-child(1),
+.Team>h2>span:nth-child(1) {
+	content: "";
+	width: 100px;
+	height: 8px;
+	background: #1B73CD;
+	border-radius: 5px;
+	position: absolute;
+	left: 110%;
+	top: 40%;
+}
+
+.h2_title>h2>span:nth-child(2),
+.Team>h2>span:nth-child(2) {
+	content: "";
+	width: 100px;
+	height: 8px;
+	background: #1B73CD;
+	border-radius: 5px;
+	position: absolute;
+	right: 110%;
+	top: 40%;
+}
+
+.vid,
+.Team,
+.Team2 {
+	width: 70%;
+	margin: auto;
+	border: 1px solid #000000;
+	box-shadow: 0 0 10px #000000;
+	border-radius: 10px;
+	padding: 20px;
+	min-width: 1120px;
+}
+
+.vid>p {
+	text-align: center;
+	font-size: 20px;
+}
+
+.vid_box {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-image: url(http://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2016%2F0923%2Fr130127_2967x2018cc.jpg&w=1920);
+	background-repeat: no-repeat;
+	background-position: top center;
+	position: relative;
+	background-size: cover;
+	background-attachment: fixed;
+	box-shadow: 0 0 100px -80px rgb(0 0 0 / 80%);
+	min-height: 515px;
+	min-width: 1120px;
+	width: 100vw;
+}
+
+.vid_box>video {
+	margin: auto;
+	display: block;
+}
+
+.Ec2 {
+	border: 1px solid;
+	padding: 20px;
+}
+
+.Ec2>h3 {
+	text-align: center;
+	width: 70%;
+	margin: auto;
+}
+
+.br_p {
+	width: 100%;
+	height: 30px;
+	float: left;
+}
+
+.db_lm {
+	width: 100%;
+}
+
+.db_lm img {
+	width: 100%;
+}
+
+.db_lm>h3 {
+	width: 100%;
+	height: 40px;
+	background: #3D3D3D;
+	color: #FFFFFF;
+	font-size: 24px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 10px;
+}
+
+.cont_qd {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.cont_qd:nth-child(2n+2) {
+	background: #f5f8ff;
+}
+
+.cont_qd:nth-child(2n+1) {
+	background: #FFFFFF;
+}
+
+.log_qd {
+	width: 25%;
+
+	margin-left: 2%;
+}
+
+.fle_qd {
+	width: 50%;
+	padding-top: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.fle_qd:nth-child(1) {
+	border-right: 1px solid;
+}
+
+.right_qd {
+	width: 70%;
+
+}
+
+.right_qd h5 {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 45px;
+}
+
+.right_qd span {
+	width: 50%;
+	font-size: 20px;
+	text-align: center;
+	float: left;
+	padding: 20px;
+}
+
+.right_qd>h5>a {
+	color: #3D3D3D;
+}
+
+.con_top img {
+	width: 100%;
+}
+
+.con_top {
+	width: 100%;
+	height: 300px;
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+}
+
+.left_ {
+	width: 50%;
+}
+
+.left_>h2 {
+	width: 100%%;
+	text-align: center;
+	font-size: 26px;
+	font-weight: 600;
+	color: #1391E3;
+}
+
+.tx_p {
+	width: 100%;
+	color: #7F7F7F;
+	text-align: center;
+	font-size: 20px;
+}
+
+.footer {
+	width: 100%;
+
+}
+
+.footer>p {
+	height: 50px;
+	background: #111111;
+	color: #FFFFFF;
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.c_lbox h3 {
+	text-align: center;
+}
+
+@media screen and (min-width:2000px) and (max-width:3900px) {
+	.c_lbox p {
+		font-size: 28px;
+		color: #878686;
+	}
+
+	.qy_top th {
+		font-size: 32px;
+	}
+
+	.c_lbox h4 {
+		font-size: 35px;
+	}
+
+	.c_lbox h3 {
+		font-size: 32px;
+
+	}
+
+	.Cent>article p {
+		font-size: 28px;
+	}
+
+	.h2_title>h2 {
+		font-size: 45px;
+	}
+
+	.vid>p {
+		font-size: 28px;
+	}
+
+	.db_lm>h3 {
+		height: 65px;
+		line-height: 65px;
+		font-size: 32px;
+	}
+
+	.right_qd span {
+		font-size: 28px;
+		padding: 50px;
+	}
+
+	.Top_hd {
+		height: 90px;
+	}
+
+	.cont_margin>span {
+		font-size: 28px;
+		line-height: 90px;
+	}
+
+	.cont_margin>span::before {
+		width: 560px;
+		top: -30px;
+	}
+
+	.top_ul {
+		height: 100px;
+	}
+
+	.top_ul>li {
+		line-height: 100px;
+		font-size: 32px;
+	}
+
+	.tc_title>p {
+		height: 60px;
+		line-height: 60px;
+		font-size: 32px;
+	}
+
+	.tc_title {
+		width: 500px;
+	}
+
+	.tc_ul>li {
+		height: 70px;
+		line-height: 70px;
+	}
+
+	.tcname {
+		font-size: 28px;
+	}
+
+	.log_img {
+		width: 60px;
+		height: 60px;
+	}
+
+	.but_cz {
+		bottom: -60px;
+		height: 60px;
+		font-size: 28px;
+	}
+
+	.hd_img_ul li {
+		height: 30px;
+		width: 30px;
+	}
+
+	.qy_top>tr>td>.qd_img,
+	.qy_top>tr>td>.tx_img {
+		width: 150px !important;
+		height: 150px !important;
+	}
+
+
+	.tx_log {
+		width: 60%;
+	}
+
+	.contant p,
+	.right_qd h5 {
+		font-size: 30px;
+	}
+
+	.contant h2 {
+		font-size: 35px;
+	}
+
+	.contant span,
+	.contant td,
+	.contant li {
+		font-size: 28px;
+	}
+
+	.contant h3 {
+		font-size: 32px;
+	}
+
+}
